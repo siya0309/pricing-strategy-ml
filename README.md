@@ -28,10 +28,41 @@ This project builds a machine learning system to recommend optimal product price
 
 ## Results
 
-* Best Model: Gradient Boosting
-* RMSE: 
-* Clear demand curve observed
+| Model             | CV RMSE | Test RMSE | R² Score |
+| ----------------- | ------: | --------: | -------: |
+| Linear Regression |  14.779 |    16.544 |   -0.010 |
+| Random Forest     |  13.514 |    14.131 |    0.263 |
+| Gradient Boosting |  14.030 |    13.649 |    0.313 |
 
+ **Best Model:** Gradient Boosting
+
+
+
+## Key Insights
+
+* **Gradient Boosting** achieved the lowest test RMSE → best predictive performance
+* **Linear Regression underperformed** → indicates non-linear relationship between price and demand
+* **Tree-based models (RF & GB)** captured demand patterns more effectively
+* Positive R² (~0.31) shows the model explains a meaningful portion of demand variation
+
+---
+
+##  Interpretation
+
+* Demand is **not purely linear with price**
+* Customer behavior is influenced by multiple factors (discounts, category, etc.)
+* Machine learning models significantly improve pricing decisions over simple regression
+
+---
+
+## Business Takeaway
+
+Using Gradient Boosting:
+
+* Predict demand more accurately
+* Identify optimal price points
+* Improve revenue through data-driven price
+* 
 ## Tech Stack
 
 * Python
