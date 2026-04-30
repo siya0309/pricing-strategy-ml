@@ -45,7 +45,7 @@ This project builds a machine learning system to recommend optimal product price
 * **Tree-based models (RF & GB)** captured demand patterns more effectively
 * Positive R² (~0.31) shows the model explains a meaningful portion of demand variation
 
----
+
 
 ##  Interpretation
 
@@ -53,7 +53,6 @@ This project builds a machine learning system to recommend optimal product price
 * Customer behavior is influenced by multiple factors (discounts, category, etc.)
 * Machine learning models significantly improve pricing decisions over simple regression
 
----
 
 ## Business Takeaway
 
